@@ -1,4 +1,5 @@
 import { AnimatedPinDemo } from "@/components/AnimatedPin";
+import { FloatingDockDemo } from "@/components/FloatingDock";
 import { NavbarDemo } from "@/components/Navbar";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
       <div>
         <NavbarDemo/>
         <AnimatedPinDemo/>
+        <FloatingDockDemo/>
       </div>
   );
 }
