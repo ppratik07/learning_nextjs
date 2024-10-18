@@ -1,5 +1,6 @@
 import { AnimatedPinDemo } from "@/components/AnimatedPin";
 import { FloatingDockDemo } from "@/components/FloatingDock";
+import { GoogleGeminiEffectDemo } from "@/components/Gemini";
 import { NavbarDemo } from "@/components/Navbar";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         <NavbarDemo/>
         <AnimatedPinDemo/>
         <FloatingDockDemo/>
+        <GoogleGeminiEffectDemo/>
       </div>
   );
 }
